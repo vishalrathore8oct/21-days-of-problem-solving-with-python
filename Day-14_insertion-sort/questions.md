@@ -5,7 +5,7 @@
 * Sorted prefix + inserting new element at correct position
 * Shifting elements efficiently
 * Stable sorting
-* Sorting nearly sorted arrays
+* Sorting nearly sorted lists
 * Using insertion logic for real problems
 
 ---
@@ -14,14 +14,14 @@
 
 ---
 
-### **1️⃣ Sort an Array in Ascending Order Using Insertion Sort**
+### **1️⃣ Sort a List in Ascending Order Using Insertion Sort**
 
 * **Input:** `[9, 5, 1, 4, 3]`
 * **Output:** `[1, 3, 4, 5, 9]`
 
 ---
 
-### **2️⃣ Sort an Array in Descending Order**
+### **2️⃣ Sort a List in Descending Order**
 
 * **Input:** `[3, 8, 2, 7, 4]`
 * **Output:** `[8, 7, 4, 3, 2]`
@@ -30,9 +30,9 @@
 ---
 
 
-### **3️⃣ Insert a New Element into an Already Sorted Array (Using Insertion Logic)**
+### **3️⃣ Insert a New Element into an Already Sorted List (Using Insertion Logic)**
 
-* **Input:** Sorted: `[1, 3, 5, 6]`, New element: `4`
+* **Input:** Sorted: `[1, 3, 5, 6]`, new element: `4`
 * **Output:** `[1, 3, 4, 5, 6]`
 
 ---
@@ -41,28 +41,28 @@
 
 ---
 
-### **1️⃣ Sort an Array but Keep Odd Numbers Fixed**
+### **1️⃣ Sort a List but Keep Odd Numbers Fixed**
 
 * **Input:** `[9, 4, 7, 6, 3, 2]`
 * **Output:** Sort evens only, odd positions unchanged.
 
 ---
 
-### **2️⃣ Sort an Array Using Insertion Sort but Print Array After Each Pass**
+### **2️⃣ Sort a List Using Insertion Sort but Print the List After Each Pass**
 
 * **Input:** `[5, 2, 4, 6, 1]`
-* **Output:** State of array after each insertion step.
+* **Output:** State of the list after each insertion step.
 
 ---
 
-### **3️⃣ Find the Position Where an Element Should Be Inserted in a Sorted Array**
+### **3️⃣ Find the Position Where an Element Should Be Inserted in a Sorted List**
 
 * **Input:** `[2, 4, 6, 8]`, element = 5
 * **Output:** Index where 5 should be placed.
 
 ---
 
-### **4️⃣ Check If an Array Becomes Sorted After Inserting One Element**
+### **4️⃣ Check If a List Becomes Sorted After Inserting One Element**
 
 * **Input:** `[1, 2, 4, 5, 3]`
 * **Output:** `Yes / No`
@@ -74,4 +74,4 @@
 
 * **Input:** `[9, 1, 8, 2, 7, 3]`
 * Sort positions `0, 2, 4` only
-* **Output:** Updated array.
+* **Output:** Updated list.

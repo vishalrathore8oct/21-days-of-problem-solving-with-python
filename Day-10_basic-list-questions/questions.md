@@ -1,8 +1,8 @@
-# 🎯 Day 10 – Arrays (Basics + Intermediate)
+# 🎯 Day 10 – Lists (Basics + Intermediate)
 
 ### 🧩 Core Concept Focus
 
-* Looping through arrays
+* Looping through lists
 * Finding max, min, sum
 * Frequency based problems
 * Working with indexes
@@ -20,30 +20,30 @@
 
 ---
 
-### 2️⃣ Reverse an Array (Manual Method Only)
+### 2️⃣ Reverse a List (Manual Method Only)
 
 * **Input:** `[1, 2, 3, 4, 5]`
 * **Output:** `[5, 4, 3, 2, 1]`
-  
-  ✨ Two pointer technique, no `reverse()`.
+
+  ✨ Two pointer technique, no `list.reverse()` and no `[::-1]`.
 
 ---
 
-### 3️⃣ Check if an Array is Sorted (Ascending)
+### 3️⃣ Check if a List is Sorted (Ascending)
 
 * **Input:** `[1, 2, 3, 4, 5]`
 * **Output:** `Sorted`
 
 ---
 
-### 4️⃣ Remove All Duplicates From an Array (Use filter method)
+### 4️⃣ Remove All Duplicates From a List (Preserve Order, No `set()`)
 
 * **Input:** `[1, 2, 2, 3, 3, 4]`
 * **Output:** `[1, 2, 3, 4]`
 
 ---
 
-### 5️⃣ Merge Two Arrays Without Using concat or spread
+### 5️⃣ Merge Two Lists Without Using `+`, `extend` or Unpacking
 
 * **Input:** `[1, 2, 3]` and `[4, 5]`
 * **Output:** `[1, 2, 3, 4, 5]`
@@ -59,21 +59,21 @@
 
 ---
 
-### 2️⃣ Rotate an Array to the Right by K Steps
+### 2️⃣ Rotate a List to the Right by K Steps
 
 * **Input:** `[1, 2, 3, 4, 5]`, `K = 2`
 * **Output:** `[4, 5, 1, 2, 3]`
 
 ---
 
-### 3️⃣ Check if Two Arrays Are Equal (Same Order)
+### 3️⃣ Check if Two Lists Are Equal (Same Order)
 
 * **Input:** `[1, 2, 3]` vs `[1, 2, 3]`
 * **Output:** `Equal`
 
 ---
 
-### 4️⃣ Count Even and Odd Numbers in an Array
+### 4️⃣ Count Even and Odd Numbers in a List
 
 * **Input:** `[2, 5, 7, 8, 10]`
 * **Output:** `Even = 3`, `Odd = 2`
@@ -87,7 +87,7 @@
 
 ---
 
-### 6️⃣ Left Shift an Array by One Position
+### 6️⃣ Left Shift a List by One Position
 
 * **Input:** `[1, 2, 3, 4]`
 * **Output:** `[2, 3, 4, 1]`
@@ -95,7 +95,7 @@
 
 ---
 
-### 7️⃣ Count How Many Times an Element Appears in an Array
+### 7️⃣ Count How Many Times an Element Appears in a List
 
-* **Input:** array = `[1, 4, 4, 4, 2]`, element = `4`
+* **Input:** list = `[1, 4, 4, 4, 2]`, element = `4`
 * **Output:** `3`

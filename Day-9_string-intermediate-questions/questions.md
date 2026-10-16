@@ -5,7 +5,7 @@
 - Sliding window problems
 - Substring search
 - Window expansion & contraction
-- Character frequency maps
+- Character frequency dictionaries
 
 ---
 
@@ -20,12 +20,12 @@
   Target string: `"there"`
 
 - **Output:**
-  `true`
-  ✨ _Manual parsing only; check character by character without using `includes`, or `indexOf`._
+  `True`
+  ✨ _Manual parsing only; check character by character without using the `in` operator or `str.find()`._
 
 ---
 
-### **2️⃣ Manual Substring Search (Without Using indexOf)**
+### **2️⃣ Manual Substring Search (Without Using `str.find()`)**
 
 - **Input:** text = `"hello world"`, pattern = `"wor"`
 - **Output:** `Found at index 6`
@@ -47,9 +47,9 @@
 
 ### **1️⃣ Count Frequency of Each Word in a Sentence**
 
-- **Input:** `"i love coding and i love javascript"`
-- **Output:** `{ i:2, love:2, coding:1, and:1, javascript:1 }`
-  ✨ _Word parsing + map building._
+- **Input:** `"i love coding and i love python"`
+- **Output:** `{'i': 2, 'love': 2, 'coding': 1, 'and': 1, 'python': 1}`
+  ✨ _Word parsing + dictionary building._
 
 ---
 
@@ -77,10 +77,10 @@
 
 ---
 
-### **5️⃣ Find All Anagram Pairs in an Array of Strings**
+### **5️⃣ Find All Anagram Pairs in a List of Strings**
 
 - **Input:** `["cat", "tac", "act", "dog"]`
-- **Output:** `["cat","tac","act"]`
+- **Output:** `["cat", "tac", "act"]`
 
 ---
 
@@ -88,4 +88,4 @@
 
 - **Input:** `"abcabcbb"`
 - **Output:** `"abc"`
-  ✨ _Introduction to sliding windows, hash maps, and window shrinking logic._
+  ✨ _Introduction to sliding windows, dictionaries, and window shrinking logic._

@@ -13,14 +13,14 @@
 
 ---
 
-### **1️⃣ Sort an Array in Ascending Order Using Selection Sort**
+### **1️⃣ Sort a List in Ascending Order Using Selection Sort**
 
 - **Input:** `[7, 2, 9, 4, 1]`
 - **Output:** `[1, 2, 4, 7, 9]`
 
 ---
 
-### **2️⃣ Sort an Array in Descending Order**
+### **2️⃣ Sort a List in Descending Order**
 
 - **Input:** `[3, 8, 5, 2, 9]`
 - **Output:** `[9, 8, 5, 3, 2]`
@@ -43,15 +43,15 @@
 
 ---
 
-### **5️⃣ Sort an Array of Objects by Name**
+### **5️⃣ Sort a List of Dictionaries by Name**
 
 - **Input:**
 
-  ```js
-  [{ name: "Charlie" }, { name: "Alice" }, { name: "Bob" }];
+  ```python
+  [{"name": "Charlie"}, {"name": "Alice"}, {"name": "Bob"}]
   ```
 
-- **Output:** Sorted alphabetically by name.
+- **Output:** Sorted alphabetically by `"name"`.
 
 ---
 
@@ -66,14 +66,14 @@
 
 ---
 
-### **2️⃣ Sort a 2D Array by Second Element in Each Subarray**
+### **2️⃣ Sort a Nested List by the Second Element of Each Inner List**
 
 - **Input:** `[[3, 9], [1, 4], [2, 5]]`
-- **Output:** Sorted by second values → `[[1,4], [2,5], [3,9]]`
+- **Output:** Sorted by second values → `[[1, 4], [2, 5], [3, 9]]`
 
 ---
 
-### **3️⃣ Sort an Array and Count How Many Times Minimum Changed**
+### **3️⃣ Sort a List and Count How Many Times the Minimum Changed**
 
 - **Input:** `[8, 3, 5, 2, 6]`
 - **Output:** Number of times a new minimum was found.
@@ -88,7 +88,7 @@
 
 ---
 
-### **5️⃣ Sort an Array of Characters by ASCII Value**
+### **5️⃣ Sort a List of Characters by ASCII Value**
 
 - **Input:** `['d', 'A', 'c', 'B']`
-- **Output:** Sorted by ASCII: `['A', 'B', 'c', 'd']`
+- **Output:** Sorted by `ord()` value → `['A', 'B', 'c', 'd']`

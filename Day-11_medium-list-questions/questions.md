@@ -1,10 +1,10 @@
-# 🎯 **Day 11 – Medium Array Problems**
+# 🎯 **Day 11 – Medium List Problems**
 
 ### 🧩 **Core Concept Focus**
 
 - Two-pointer technique
 - Prefix sums
-- Subarray analysis
+- Sublist (contiguous slice) analysis
 
 ---
 
@@ -24,14 +24,14 @@
 
 ---
 
-### **3️⃣ Find the First Repeating Element in an Array**
+### **3️⃣ Find the First Repeating Element in a List**
 
 - **Input:** `[10, 5, 3, 4, 3, 5, 6]`
 - **Output:** `5`
 
 ---
 
-### **4️⃣ Maximum Subarray Sum (Kadane’s Algorithm – O(n))**
+### **4️⃣ Maximum Sublist Sum (Kadane’s Algorithm – O(n))**
 
 - **Input:** `[-2, 1, -3, 4, -1, 2, 1, -5, 4]`
 - **Output:** `6`
@@ -40,28 +40,28 @@
 
 # 🏠 **Homework Questions**
 
-### **1️⃣ Find the Longest Subarray with Sum = K (Optimized)**
+### **1️⃣ Find the Longest Sublist with Sum = K (Optimized)**
 
 - **Input:** `[1, 2, 3, 4, 5]`, K = 9
 - **Output:** `[2, 3, 4]`
 
 ---
 
-### **2️⃣ Find the Length of the Longest Subarray with No Repeating Elements**
+### **2️⃣ Find the Length of the Longest Sublist with No Repeating Elements**
 
 - **Input:** `[1,2,3,1,2,3,4]`
 - **Output:** `4`
 
 ---
 
-### **3️⃣ Maximum Subarray (Kadane’s Algorithm – O(n))**
+### **3️⃣ Maximum Sublist (Kadane’s Algorithm – O(n))**
 
 - **Input:** `[-2, 1, -3, 4, -1, 2, 1, -5, 4]`
 - **Output:** `[4, -1, 2, 1]`
 
 ---
 
-### **4️⃣ Find the Longest Increasing Subarray (Continuous)**
+### **4️⃣ Find the Longest Increasing Sublist (Contiguous)**
 
 - **Input:** `[1, 2, 2, 3, 4, 5]`
-- **Output:** `Length = 4, SubArray = [2, 3, 4, 5]`
+- **Output:** `Length = 4, Sublist = [2, 3, 4, 5]`

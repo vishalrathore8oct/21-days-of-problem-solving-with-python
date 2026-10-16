@@ -2,7 +2,7 @@
 
 ### 🧩 **Core Concept Focus**
 
-* Conditional statements (`if`, `else if`, `else`)
+* Conditional statements (`if`, `elif`, `else`)
 * Comparison and logical operators
 * Decision making based on different inputs
 * Strengthening flow-of-control understanding
@@ -33,7 +33,7 @@
 
 * Input: `Units = 230`
 * Output: `Total Bill = ₹1500`
-* ✨ *Applies multiple ranges using chained `else if` and cumulative logic.*
+* ✨ *Applies multiple ranges using chained `elif` and cumulative logic.*
 * Example Logic:
 
   * 0–100 units → ₹5 per unit
@@ -48,7 +48,7 @@
 
    * Input: `e`
    * Output: `Vowel`
-   * ✨ *Combines logical OR (`||`) operator and string comparisons.*
+   * ✨ *Combines logical `or` operator and string comparisons.*
 
 ---
 
@@ -61,11 +61,11 @@
    A year is a **leap year** if it satisfies these conditions:
 
    1. It is **divisible by 4**,  
-      ➜ `year % 4 === 0`
+      ➜ `year % 4 == 0`
    2. **But not divisible by 100**,  
-      ➜ `year % 100 !== 0`
+      ➜ `year % 100 != 0`
    3. **Unless** it is also **divisible by 400**,  
-      ➜ `year % 400 === 0`
+      ➜ `year % 400 == 0`
 
    🧩 **In Simple Words**
    - If a year is divisible by **4**, it’s a leap year.  
@@ -80,8 +80,8 @@
 
    * Input: `A`
    * Output: `Uppercase Letter`
-   * ✨ *Teaches use of character code ranges (`charCodeAt`) and compound logical conditions.*
-   * 🔍 *Concepts:* ASCII range checks, compound `&&` and `||` operators.
+   * ✨ *Teaches use of character code ranges (`ord()`) and compound logical conditions.*
+   * 🔍 *Concepts:* ASCII range checks, compound `and` / `or` operators.
 
 ---
 
@@ -110,4 +110,4 @@
   * ₹2,50,001 – ₹5,00,000 → 5%
   * ₹5,00,001 – ₹10,00,000 → 20%
   * Above ₹10,00,000 → 30%
-* 🔍 *Requires cumulative calculation using nested `if–else` or multiple slab loops.*
+* 🔍 *Requires cumulative calculation using nested `if`–`elif`–`else` or multiple slab loops.*

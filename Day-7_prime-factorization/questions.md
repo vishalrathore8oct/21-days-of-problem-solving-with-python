@@ -11,7 +11,7 @@
 
 # 🏫 **Class Questions**
 
-## **1. Find the Prime Factorization (Return as an Array)**
+## **1. Find the Prime Factorization (Return as a List)**
 
 - **Input:** `N = 84`
 - **Output:** `[2, 2, 3, 7]`
@@ -106,12 +106,13 @@ If it becomes **1**, it is Happy.
 
 ## **7. Number Base Conversion (Any Base to Any Base)**
 
-- **Input:** `Number = "101101", From Base = 2, To Base = 10`
+- **Input:** `number = "101101", from_base = 2, to_base = 10`
 - **Output:** `45`
 
 ---
 
-## **8. Swap Variable without using third variable**
+## **8. Swap Two Variables Without Using a Third Variable**
 
 - **Input:** `a = 5, b = 6`
 - **Output:** `a = 6, b = 5`
+- ✨ *Use arithmetic or tuple unpacking — `a, b = b, a`.*

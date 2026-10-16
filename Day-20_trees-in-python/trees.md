@@ -247,41 +247,41 @@ Level is used more in explanations and visualizations.
 
 ---
 
-## 🧱 Tree as a Nested JavaScript Object
+## 🧱 Tree as a Nested Python Dictionary
 
-In JavaScript, a tree is not a built-in data structure. You represent it using plain objects and arrays, and the shape you choose depends on the kind of tree you want.
+In Python, a tree is not a built-in data structure. You represent it using plain dicts and lists, and the shape you choose depends on the kind of tree you want.
 
 ---
 
 ### Example 1️⃣ Media Folder Tree
 
-```js
-const media = {
-  name: "media",
-  children: [
-    {
-      name: "images",
-      children: [
-        { name: "photo.png", children: [] },
-        { name: "wallpaper.jpg", children: [] },
-        { name: "logo.svg", children: [] },
-      ],
-    },
-    {
-      name: "music",
-      children: [],
-    },
-    {
-      name: "videos",
-      children: [],
-    },
-  ],
-};
+```python
+media = {
+    "name": "media",
+    "children": [
+        {
+            "name": "images",
+            "children": [
+                {"name": "photo.png", "children": []},
+                {"name": "wallpaper.jpg", "children": []},
+                {"name": "logo.svg", "children": []},
+            ],
+        },
+        {
+            "name": "music",
+            "children": [],
+        },
+        {
+            "name": "videos",
+            "children": [],
+        },
+    ],
+}
 ```
 
-This object is a **tree** 🌳  
-Each object is a node.  
-Each `children` array holds child nodes.
+This dictionary is a **tree** 🌳  
+Each dictionary is a node.  
+Each `"children"` list holds child nodes.
 
 ---
 
@@ -306,4 +306,4 @@ That’s exactly what recursion is good at 🔁
 ✅ No cycles  
 ✅ Perfect for recursion  
 ✅ Used in real life everywhere  
-✅ JavaScript trees are just nested objects and arrays
+✅ Python trees are just nested dictionaries and lists

@@ -1,4 +1,4 @@
-1. Add search method on TreeNode class
-2. Add search method on BSTNode class
-3. Add delete method on BSTNode class
-4. Find Time Complexity of each method
+1. Add a `search` method to the `TreeNode` class
+2. Add a `search` method to the `BSTNode` class
+3. Add a `delete` method to the `BSTNode` class
+4. Find the time complexity of each method

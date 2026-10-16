@@ -3,8 +3,8 @@
 ### 🧩 **Core Concept Focus**
 
 - Understanding mid calculation
-- Searching efficiently in sorted arrays
-- Avoiding overflow in mid formula
+- Searching efficiently in sorted lists
+- Using `//` for integer division of the mid index
 - Handling duplicates
 - Handling edge cases and boundaries
 - Using binary search for conditions
@@ -13,7 +13,7 @@
 
 # 🏫 **Class Questions**
 
-_(All arrays are sorted.)_
+_(All lists are sorted.)_
 
 ---
 
@@ -60,19 +60,19 @@ _(All arrays are sorted.)_
 ### **3️⃣ Check If a Number Is a Perfect Square Using Binary Search**
 
 - **Input:** `N = 36`
-- **Output:** `true`  
-  _For N = 37 → false._
+- **Output:** `True`  
+  _For N = 37 → `False`._
 
 ---
 
-### **4️⃣ Find the Peak Element in a Mountain Array (Binary Search Variant)**
+### **4️⃣ Find the Peak Element in a Mountain List (Binary Search Variant)**
 
 - **Input:** `[1, 3, 5, 7, 6, 4, 2]`
 - **Output:** `Peak = 7` at index 3
 
 ---
 
-### **5️⃣ Binary Search in a Descending Sorted Array**
+### **5️⃣ Binary Search in a Descending Sorted List**
 
 - **Input:** `[100, 90, 70, 40, 10]`, search = `70`
 - **Output:** `index 2`

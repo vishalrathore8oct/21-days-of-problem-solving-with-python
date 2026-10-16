@@ -23,11 +23,11 @@ This is the **simplest form of a tree**.
 ### Key points
 
 * Very flexible
-* Easy to represent using nested objects
+* Easy to represent using nested dictionaries
 * Used for:
 
   * File systems
-  * DOM
+  * XML / HTML element trees
   * JSON data
 
 👉 We have already used this tree type in Day 20.
@@ -118,5 +118,5 @@ At each node:
 Trees are everywhere 👀
 
 * File systems 📁 → General Tree
-* HTML DOM 🌐 → General Tree
+* XML / HTML element trees 🌐 → General Tree
 * Binary search logic 🔍 → BST

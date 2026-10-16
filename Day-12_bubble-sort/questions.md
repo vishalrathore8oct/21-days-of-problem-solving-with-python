@@ -2,14 +2,14 @@
 
 ---
 
-### **1️⃣ Sort an Array in Ascending Order Using Bubble Sort**
+### **1️⃣ Sort a List in Ascending Order Using Bubble Sort**
 
 - **Input:** `[5, 3, 8, 4, 2]`
 - **Output:** `[2, 3, 4, 5, 8]`
 
 ---
 
-### **2️⃣ Sort an Array in Descending Order Using Bubble Sort**
+### **2️⃣ Sort a List in Descending Order Using Bubble Sort**
 
 - **Input:** `[7, 1, 5, 3, 2]`
 - **Output:** `[7, 5, 3, 2, 1]`
@@ -18,13 +18,13 @@
 
 ### **3️⃣ Sort a String Alphabetically Using Bubble Sort Logic**
 
-- **Input:** `"javascript"`
-- **Output:** `"aacijprstv"`
-  _(Treat string as array of characters.)_
+- **Input:** `"python"`
+- **Output:** `"hnopty"`
+  _(Convert the string to a list of characters, sort, then join.)_
 
 ---
 
-### **4️⃣ Sort an Array and Count the Number of Swaps Performed**
+### **4️⃣ Sort a List and Count the Number of Swaps Performed**
 
 - **Input:** `[4, 3, 2, 1]`
 - **Output:**
@@ -38,70 +38,70 @@
 
 ---
 
-### **1️⃣ Sort an Array of Objects by Age (Ascending)**
+### **1️⃣ Sort a List of Dictionaries by Age (Ascending)**
 
 - **Input:**
 
-  ```js
+  ```python
   [
-    { name: "A", age: 25 },
-    { name: "B", age: 20 },
-    { name: "C", age: 30 },
-  ];
+      {"name": "A", "age": 25},
+      {"name": "B", "age": 20},
+      {"name": "C", "age": 30},
+  ]
   ```
 
-- **Output:** Sorted by `age`.
+- **Output:** Sorted by `"age"`.
 
 ---
 
-### **2️⃣ Sort an Array but Keep Zeros at the End (Zeros Fixed)**
+### **2️⃣ Sort a List but Keep Zeros at the End (Zeros Fixed)**
 
 - **Input:** `[3, 0, 5, 0, 2, 1]`
 - **Output:** `[1, 2, 3, 5, 0, 0]`
 
 ---
 
-### **3️⃣ Sort an Array and Track How Many Comparisons Were Made**
+### **3️⃣ Sort a List and Track How Many Comparisons Were Made**
 
 - **Input:** `[5, 1, 4, 2, 8]`
 - **Output:**
 
-  - Sorted array
+  - Sorted list
   - Total comparisons
 
 ---
 
-### **4️⃣ Sort an Array of Characters Case-Insensitive**
+### **4️⃣ Sort a List of Characters Case-Insensitive**
 
 - **Input:** `['b', 'A', 'd', 'C']`
 - **Output:** `['A', 'b', 'C', 'd']`
 
 ---
 
-### **5️⃣ Sort a 2D Array by the First Element of Each Subarray**
+### **5️⃣ Sort a Nested List by the First Element of Each Inner List**
 
 - **Input:**
 
-  ```
+  ```python
   [[3, "c"], [1, "a"], [2, "b"]]
   ```
 
 - **Output:**
 
-  ```
+  ```python
   [[1, "a"], [2, "b"], [3, "c"]]
   ```
 
 ---
 
-### **6️⃣ Sort an Array in Ascending Order but Stop After K Passes**
+### **6️⃣ Sort a List in Ascending Order but Stop After K Passes**
 
 - **Input:** `[5, 4, 3, 2, 1]`, K = 2
-- **Output:** Array state after 2 bubble sort passes.
+- **Output:** List state after 2 bubble sort passes.
 
 ---
 
-### **7️⃣ Sort Only the Even Numbers in an Array (Odd Numbers Stay in Place)**
+### **7️⃣ Sort Only the Even Numbers in a List (Odd Numbers Stay in Place)**
 
 - **Input:** `[9, 4, 2, 7, 6, 5]`
 - **Output:** `[9, 2, 4, 7, 6, 5]`
@@ -109,7 +109,7 @@
 
 ---
 
-### **8️⃣ Sort an Array of Strings by Length (Shortest to Longest)**
+### **8️⃣ Sort a List of Strings by Length (Shortest to Longest)**
 
-- **Input:** `["hi", "javascript", "is", "fun"]`
-- **Output:** `["hi", "is", "fun", "javascript"]`
+- **Input:** `["hi", "python", "is", "fun"]`
+- **Output:** `["hi", "is", "fun", "python"]`

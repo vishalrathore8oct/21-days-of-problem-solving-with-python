@@ -10,16 +10,16 @@
 
 ## 🏫 **Class Questions**
 
-1. **Print All Factors of a Number**
+1. **Print All Factors of a Number (Return as a List)**
 
    * **Input:** `N = 24`
    * **Output:** `[1, 2, 3, 4, 6, 8, 12, 24]`
 
 ---
 
-2. **Print All Multiples of a Number up to N**
+2. **Print All Multiples of a Number up to N (Return as a List)**
 
-   * **Input:** `Number = 4, Limit = 30`
+   * **Input:** `number = 4, limit = 30`
    * **Output:** `[4, 8, 12, 16, 20, 24, 28]`
 
 ---

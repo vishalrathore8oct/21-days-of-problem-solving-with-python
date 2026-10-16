@@ -5,6 +5,8 @@
 * Nested Loops
 * Pattern Printing with Logic and Symmetry
 * Understanding iteration depth for shapes and designs
+* Printing without a line break using `print(value, end="")`
+* Building a row as a string and printing it once
 
 ---
 

@@ -15,9 +15,9 @@
 
 ### **1️⃣ Reverse a String (Manual Method Only)**
 
-- **Input:** `"javascript"`
-- **Output:** `"tpircsavaj"`
-  ✨ _Use a loop — no `.reverse()`._
+- **Input:** `"python"`
+- **Output:** `"nohtyp"`
+  ✨ _Use a loop — no slicing with `[::-1]` and no `reversed()`._
 
 ---
 
@@ -32,8 +32,8 @@
 ### **3️⃣ Count Frequency of Each Character**
 
 - **Input:** `"banana"`
-- **Output:** `{ b:1, a:3, n:2 }`
-  ✨ _Teaches hash maps / JS objects + iteration._
+- **Output:** `{'b': 1, 'a': 3, 'n': 2}`
+  ✨ _Teaches hash maps / Python dictionaries + iteration._
 
 ---
 
@@ -49,7 +49,7 @@
 
 - **Input:** `"listen"`, `"silent"`
 - **Output:** `Anagram`
-  ✨ _Use character frequency comparison — no `.sort()`._
+  ✨ _Use character frequency comparison — no `sorted()`._
 
 ---
 
@@ -68,7 +68,7 @@
 
 - **Input:** `"programming"`
 - **Output:** `"progamin"`
-  ✨ _Use a visited set + build new string._
+  ✨ _Use a `set` of seen characters + build a new string._
 
 ---
 
@@ -76,7 +76,7 @@
 
 - **Input:** `"HelloWorld123"`
 - **Output:** `False`
-  ✨ _Use ASCII ranges manually._
+  ✨ _Use ASCII ranges manually with `ord()` — no `str.isalpha()`._
 
 ---
 
@@ -84,7 +84,7 @@
 
 - **Input:** `"I love coding"`
 - **Output:** `"coding love I"`
-  ✨ _Split manually or build reverser yourself._
+  ✨ _Split manually or build the reverser yourself — no `str.split()`._
 
 ---
 
@@ -96,7 +96,7 @@
 
 ---
 
-### **5️⃣ Count the Number of Words (Manually Without split)**
+### **5️⃣ Count the Number of Words (Manually Without `str.split()`)**
 
 - **Input:** `"  hi   there  world "`
 - **Output:** `3 words`
@@ -108,7 +108,7 @@
 
 - **Input:** `"abc"`
 - **Output:** `a, ab, abc, b, bc, c`
-  ✨ _Nested loops + substring construction._
+  ✨ _Nested loops + substring construction, no slicing._
 
 ---
 
